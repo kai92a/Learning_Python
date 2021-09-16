@@ -1,0 +1,7 @@
+f=open(r"C:\Users\sgaa_\OneDrive\Desktop\6.00.1x material\Textfile upload.txt", 'r')
+print (f)
+a=f.read()
+print (a)
+a=a.split(" ")
+print (a)
+print('\n'.join(a))
